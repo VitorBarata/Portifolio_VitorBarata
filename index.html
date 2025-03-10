@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- FIM GOOGLE FONTES -->
+    <!-- BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- FIM BOOTSTRAP ICONS -->
+    <link rel="stylesheet" href="style.css">
+
+    <script src="menu.js" defer></script>
+
+    <title>Portifolio Vitor Barata</title>
+</head>
+<body>
+    <div class="background-video">
+        <video autoplay loop muted playsinline>
+            <source src="images/Organic_Lines_4K_Motion_Background_Loop.mp4" type="video/mp4">
+        </video>
+    </div>
+    
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#">
+                    <img src="images/Design sem nome (1).png" alt="Portifólio Vitor Barata">
+                </a>
+            </div><!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#especialidades">Especialidades</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="https://w.app/vitorbarata">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#especialidades">Especialidades</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+    </header>
+
+    <main>
+        <section id="inicio" class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <section id="sobre" class="sobre"></section>
+                    <div class="txt-topo-site">
+                        <h1>UM POUCO MAIS SOBRE MIM<span>.</span></h1>
+                        <p>Sou um Development Student , semprei amei a área de tecnologia e códigos , além dos mundo dos jogos .Esta página foi criada
+                            com a finalidade de expôr meu potifólio sobre o crescimento da minha carreira e projetos , Seja bem-vindo !!!
+                        </p>
+
+                        <div class="btn-contato">
+                            <a href="https://w.app/vitorbarata">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="images/pessoa.png" alt="">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo-do-site-->
+
+        <section id="especialidades" class="especiliadades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES.</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Website</h3>
+                        <p>Sou novo no ramo do desenvolvimento, mas já tenho uma boa base em HTML, CSS e JavaScript. Sei criar a estrutura e o design de um site no front-end, trazendo interatividade e um visual agradável. Também tenho conhecimentos em Java, o que me ajuda a entender lógica de programação e aprimorar minhas habilidades. Estou sempre buscando evoluir e aprender mais! 🚀</p>
+                    </div><!--especialidades-box-->.
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-cart"></i>
+                        <h3>Loja online</h3>
+                        <p>Tenho conhecimentos básicos na criação de lojas online, utilizando HTML, CSS e JavaScript para estruturar e estilizar páginas. Estou sempre aprendendo e evoluindo!</p>
+                    </div><!--especialidades-box-->
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-wordpress"></i>
+                        <h3>SQL</h3>
+                        <p>Fiz um projeto de banco de dados na faculdade e tive que lidar com SQL , gosto muito de me aprofundar tanto no back-end e front-end.</p>
+                    </div><!--especialidades-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--especiliadades-->
+
+
+        <section id="sobre" class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="images/Sem nome (200 x 200 px) (2).png" alt="">
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU Vitor Barata.</span></h2>
+                        <p>Comecei minha caminhada no mundo da programação através de cursos livres realizados ainda durante o ensino médio. 
+                            Logo após, realizei um Curso Técnico em Desenvolvimento Full Stack na Escola DNC, especialista na área de ensino de tecnologia.
+                            A fim de dar continuidade, iniciei minha graduação em Sistemas da Informação, demonstrando as habilidades adquiridas até então para assim, ter um bom desempenho acadêmico.
+                           </p>
+                        <p> Atualmente atuo na área de Suporte de TI, sendo responsável por alterações e criações em um banco de dados, além de suporte ao cliente. Também realizo suporte em front-end, sendo responsável por criações gráficas.</p>
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/vitor.barata_/"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://www.youtube.com/@vitorbarata8081"><button><i class="bi bi-youtube"></i></button></a>
+                            <a href="https://www.linkedin.com/in/vitor-barata-gonzales-a74021266/"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section id="projetos" class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO.</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(images/Design\ sem\ nome\ \(2\).png);">
+                        <div class="overlay">Projeto 1</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/site-black\ friday.png);">
+                        <div class="overlay">Projeto 2</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(images/site\ analytics.png);">
+                        <div class="overlay">Projeto 3</div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALA <span>COMIGO.</span></h2>
+
+                <form action="https://example.com">
+                    <input type="text" name="name" id="name" placeholder="Seu nome completo:" required>
+                    <input type="email" name="email" id="email" placeholder="Seu e-mail:" required>
+                    <input type="text" name="phone" id="phone" placeholder="Seu celular:">
+                    <textarea name="message" id="message" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div><!--interface-->
+        </section><!--formulario-->
+
+    </main>
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                        <img src="images/Design sem nome (1).png" alt="Logotipo Vitor Barata">
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/vitor.barata_/"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://www.youtube.com/@vitorbarata8081"><button><i class="bi bi-youtube"></i></button></a>
+                        <a href="https://www.linkedin.com/in/vitor-barata-gonzales-a74021266/"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div><!--btn-social-->
+                </div>
+            </div><!--line-footer-->
+
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:contato@vitor.com.br">vitorbgonzales@gmail.com</a></p>
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:contato@vitor.com.br">(55)+11995511900</a></p>
+            </div><!--line-footer-->
+        </div><!--interface-->
+    </footer>
+
+</body>
+</html>
